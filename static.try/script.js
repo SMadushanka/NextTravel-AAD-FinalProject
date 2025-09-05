@@ -93,9 +93,8 @@ $("#loginBtn").click(function () {
     let email = $("#loginEmail").val();
     let password = $("#loginPassword").val();
     //
-    if (email==="1234" && password==="1234") {
-        // navigate to admin panel
-
+    if (email==="1234@gmail.com" && password==="1234") {
+        window.location.href = "../templates/admin-panal.html";
     }
 
     $.ajax({
